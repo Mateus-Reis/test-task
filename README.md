@@ -28,6 +28,6 @@ This project is a **Next.js** application designed to demonstrate front-end deve
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Mateus-Reis/test-task.git
+   cd test-task...
    ```
