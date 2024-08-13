@@ -39,7 +39,7 @@ const SignUpForm: React.FC = () => {
     transform: inView ? "translateY(0)" : "translateY(50px)",
   });
 
-  const { token, loading, fetchToken } = useToken();
+  const { token, fetchToken } = useToken();
   const positions = usePositions();
 
   const handleInputChange = (

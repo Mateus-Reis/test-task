@@ -42,10 +42,11 @@ const Presentation: React.FC = () => {
       <p className="text-lg mb-8 text-white max-w-xl">
         What defines a good front-end developer is one that has skilled
         knowledge of HTML, CSS, and JS with a vast understanding of User design
-        thinking as they'll be building web interfaces with accessibility in
-        mind. They should also be excited to learn, as the world of Front-End
+        thinking as they&apos;ll be building web interfaces with accessibility
+        in mind. They should also be excited to learn, as the world of Front-End
         Development keeps evolving.
       </p>
+
       <button
         onClick={scrollToSignUp}
         className="px-6 py-3 bg-yellow-400 text-black font-semibold rounded-md hover:bg-yellow-300 transition-colors duration-300"

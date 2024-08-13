@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import UserCard from "./UserCard";
 import axiosInstance from "@/api/axiosConfig";
 import { animated, useSpring } from "@react-spring/web";
@@ -63,8 +62,8 @@ const UserList: React.FC = () => {
       <h2 className="text-3xl font-bold mb-8">Working with GET request</h2>
       {loading && <div className="text-center text-lg mb-4">Loading...</div>}
       <div className="flex flex-wrap justify-center gap-8">
-        {users.map((user) => (
-          <UserCard key={user.id} user={user} />
+        {users.map((user, index) => (
+          <UserCard key={`${user.id}-${index}`} user={user} />
         ))}
       </div>
       {page < totalPages && (
